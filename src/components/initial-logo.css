@@ -1,0 +1,425 @@
+@font-face {
+  font-family: "objective";
+  src: url("./fonts/Objective-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "starling";
+  src: url("./fonts/Starling-Book.otf") format("opentype");
+}
+
+body {
+  background-color: #e7dcd5 !important;
+}
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.init-logo {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+.init-logo-img {
+  width: 100%;
+}
+
+.navbar {
+  background-color: #e7dcd5 !important;
+  padding-top: 1rem;
+}
+
+.navbar-logo {
+  width: 10rem;
+}
+
+.navbar-logo-img {
+  width: 100%;
+}
+
+.link:hover {
+  text-decoration: none !important;
+}
+
+.link {
+  padding: 1rem;
+}
+
+.nav-list a {
+  color: black !important;
+  font-size: 14px;
+}
+
+.about-logo-img {
+  height: 16px;
+  margin-top: -5px;
+}
+
+.about-page {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-text {
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  font-size: 25px;
+}
+
+.about-text-p {
+  font-family: "starling";
+  letter-spacing: -0.5px;
+}
+
+.star-div {
+  width: 30px;
+  position: absolute;
+  top: -11%;
+  right: -3%;
+}
+
+.star-img {
+  width: 100%;
+}
+
+.new-york {
+  position: relative;
+}
+
+.seoul {
+  position: relative;
+}
+
+.bespoke {
+  position: relative;
+}
+
+.bespoke-img {
+  width: 100%;
+  height: 29px;
+  position: absolute;
+}
+
+.seoul-line {
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  bottom: -20%;
+}
+
+.ny-line {
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  bottom: -20%;
+}
+
+.speaks-to-brand {
+  position: relative;
+}
+
+.speaks-brand-img {
+  width: 100%;
+  position: absolute;
+  bottom: -50%;
+}
+
+.copyright-p {
+  margin-top: 70px;
+}
+
+.services-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 5rem auto auto auto;
+  max-width: 1400px;
+  font-size: 14px;
+  line-height: 18px;
+}
+.services-col {
+  width: 30%;
+}
+
+.services-col-title {
+  width: 80%;
+  margin: auto;
+}
+
+.services-col-img {
+  width: 100%;
+}
+
+.services-col-desc {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "starling";
+  letter-spacing: -0.5px;
+}
+
+.contact-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60vh;
+  width: 90%;
+  margin: 15vh auto auto auto;
+  letter-spacing: -0.5px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.contact-div-p {
+  text-align: center;
+  font-family: "starling";
+  max-width: 800px;
+  margin: 0 auto 0 auto;
+}
+
+.contact-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact-number-img {
+  width: 74px;
+  height: 70px;
+  margin-top: -2rem;
+}
+
+.contact-col-title {
+  font-family: "objective";
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+#ny {
+  margin-left: -2.5rem;
+}
+
+#seoul {
+  margin-left: 3rem;
+}
+
+.contact-col-phone {
+  font-family: "starling";
+  text-align: center;
+  margin-top: -1rem;
+}
+
+.contact-info-img {
+  max-width: 366px;
+}
+
+.contact-email {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info {
+  font-family: "objective";
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+@media (min-width: 992px) {
+  .navbar-logo {
+    width: 15rem;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    font-family: "objective";
+    text-transform: uppercase;
+    max-width: 1400px;
+    margin: auto;
+  }
+
+  .nav-list {
+    width: 635px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .diagram-mobile-div {
+    display: none;
+  }
+
+  .diagram-web {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-div {
+    margin-top: 2rem;
+  }
+
+  .diagram-web {
+    display: none;
+  }
+
+  .diagram-mobile-div {
+    max-width: 300px;
+    margin: auto;
+  }
+
+  .diagram-mobile {
+    width: 100%;
+    height: 100%;
+  }
+
+  .navbar-light .navbar-toggler {
+    border: none !important;
+  }
+
+  .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .navbar-toggler:focus {
+    outline: none !important;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .navbar-logo {
+    margin: auto;
+  }
+
+  .navbar-toggler {
+    position: relative;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 105%;
+    left: 3%;
+    padding-right: 1rem;
+  }
+
+  .nav-list {
+    z-index: 100000;
+    background-color: #e7dcd5 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-col {
+    width: 50%;
+  }
+  .about-text-p {
+    font-size: 20px;
+  }
+
+  .copyright-p {
+    font-size: 15px;
+  }
+
+  .about-logo-img {
+    height: 14px;
+  }
+}
+
+@media (max-width: 530px) {
+  .contact-div {
+    height: 75vh;
+    margin-top: 4.5rem;
+    font-size: 20px;
+  }
+
+  .contact-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-col-title {
+    font-size: 15px;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-div-p {
+    width: 75%;
+    margin: 0 auto 0 auto;
+  }
+
+  .contact-number-img {
+    width: 54px;
+    height: 50px;
+  }
+
+  #seoul-col {
+    margin-top: 1rem;
+  }
+
+  #ny {
+    margin-right: 2rem;
+  }
+
+  #seoul {
+    margin-right: 7rem;
+  }
+
+  .contact-info {
+    font-size: 15px;
+  }
+
+  .contact-number-img {
+    margin-right: 10px;
+  }
+
+  .contact-info-img {
+    max-width: 266px;
+  }
+
+  .services-row {
+    margin-top: 1rem;
+  }
+
+  .services-col {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
