@@ -286,6 +286,10 @@ body {
 }
 
 @media (max-width: 991px) {
+  .navbar-logo-img {
+    margin-left: -1rem;
+  }
+
   .about-div {
     margin-top: 2rem;
   }
