@@ -241,7 +241,7 @@ body {
 }
 
 @media (min-width: 992px) {
-  /* .fade-in {
+  .fade-in {
     opacity: 1;
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
@@ -256,7 +256,7 @@ body {
     100% {
       opacity: 1;
     }
-  } */
+  }
 
   .navbar-logo {
     width: 15rem;
