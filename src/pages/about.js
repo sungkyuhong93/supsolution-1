@@ -14,7 +14,7 @@ import diagramWeb from "../images/Diagram_Web-01.png";
 const About = () => (
   <Layout>
     <Header />
-    <SEO title="Page two" />
+    <SEO title="About" />
     <div className="about-page">
       <div className="about-div">
         <div className="about-text">

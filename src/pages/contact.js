@@ -9,7 +9,7 @@ import two from "../images/Two.png";
 const Contact = () => (
   <Layout>
     <Header />
-    <SEO title="Page two" />
+    <SEO title="Contact" />
     <div className="contact-div">
       <div className="contact-div-p">
         <p>
