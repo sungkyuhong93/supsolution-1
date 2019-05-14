@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 import logo from "../images/Supsolution_Logo.png";
 
-// import circle1 from "../images/Circle1.png";
+import circle1 from "../images/Circle1.png";
 
 // const activeStyles = {
 //   backgroundImage: `url(${circle1})`,
@@ -11,9 +11,11 @@ import logo from "../images/Supsolution_Logo.png";
 // }
 
 const IndexPage = () => (
-  <Link to="/about/">
-    <img className="init-logo-img" src={logo} alt="Logo" />
-  </Link>
+  <div className="init-logo">
+    <Link to="/about/">
+      <img className="init-logo-img fade-in" src={logo} alt="Logo" />
+    </Link>
+  </div>
 );
 
 export default IndexPage;
