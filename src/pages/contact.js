@@ -1,13 +1,14 @@
-import React from "react"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import info from "../images/Info.png"
-import one from "../images/One.png"
-import two from "../images/Two.png"
+import React from "react";
+import Header from "../components/header.js";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import info from "../images/Info.png";
+import one from "../images/One.png";
+import two from "../images/Two.png";
 
 const Contact = () => (
   <Layout>
+    <Header />
     <SEO title="Page two" />
     <div className="contact-div">
       <div className="contact-div-p">
@@ -50,6 +51,6 @@ const Contact = () => (
       </div>
     </div>
   </Layout>
-)
+);
 
-export default Contact
+export default Contact;

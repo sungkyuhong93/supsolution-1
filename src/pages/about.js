@@ -1,18 +1,19 @@
-import React from "react"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import star1 from "../images/Star1.png"
-import logo from "../images/Supsolution_Logo.png"
-import box1 from "../images/Box1.png"
-import line2 from "../images/Line2.png"
-import line3 from "../images/Line3.png"
-import line4 from "../images/speaks-line.png"
-import diagramMobile from "../images/Diagram_Mobile-01.png"
-import diagramWeb from "../images/Diagram_Web-01.png"
+import React from "react";
+import Header from "../components/header.js";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import star1 from "../images/Star1.png";
+import logo from "../images/Supsolution_Logo.png";
+import box1 from "../images/Box1.png";
+import line2 from "../images/Line2.png";
+import line3 from "../images/Line3.png";
+import line4 from "../images/speaks-line.png";
+import diagramMobile from "../images/Diagram_Mobile-01.png";
+import diagramWeb from "../images/Diagram_Web-01.png";
 
 const About = () => (
   <Layout>
+    <Header />
     <SEO title="Page two" />
     <div className="about-page">
       <div className="about-div">
@@ -70,6 +71,6 @@ const About = () => (
       </div>
     </div>
   </Layout>
-)
+);
 
-export default About
+export default About;

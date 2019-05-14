@@ -1,18 +1,20 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import BrandDesign from "../images/Brand_Design.png"
-import ArtDirection from "../images/Art_Direction.png"
-import BrandDev from "../images/Brand_Development.png"
-import CreativeConsulting from "../images/Creative_Consulting.png"
-import MarketingStrategy from "../images/Marketing_Strategy.png"
-import ContentCreation from "../images/Content_Creation.png"
-import Investments from "../images/Investments.png"
-import Education from "../images/Education.png"
-import Events from "../images/Events_Exhibitions.png"
+import React from "react";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import Header from "../components/header.js";
+import BrandDesign from "../images/Brand_Design.png";
+import ArtDirection from "../images/Art_Direction.png";
+import BrandDev from "../images/Brand_Development.png";
+import CreativeConsulting from "../images/Creative_Consulting.png";
+import MarketingStrategy from "../images/Marketing_Strategy.png";
+import ContentCreation from "../images/Content_Creation.png";
+import Investments from "../images/Investments.png";
+import Education from "../images/Education.png";
+import Events from "../images/Events_Exhibitions.png";
 
 const Services = () => (
   <Layout>
+    <Header />
     <SEO title="Services" />
     <div className="services-row">
       <div class="services-col">
@@ -147,6 +149,6 @@ const Services = () => (
       </div>
     </div>
   </Layout>
-)
+);
 
-export default Services
+export default Services;
