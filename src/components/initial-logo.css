@@ -45,6 +45,7 @@ body {
 .navbar {
   background-color: #e7dcd5 !important;
   padding-top: 1rem;
+  text-transform: uppercase;
 }
 
 .navbar-logo {
