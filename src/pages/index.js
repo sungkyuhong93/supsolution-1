@@ -13,7 +13,7 @@ import circle1 from "../images/Circle1.png";
 const IndexPage = () => (
   <div className="init-logo">
     <Link to="/about/">
-      <img className="init-logo-img fade-in" src={logo} alt="Logo" />
+      <img className="init-logo-img" src={logo} alt="Logo" />
     </Link>
   </div>
 );
