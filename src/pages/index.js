@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import Layout from "../components/layout";
 
 import logo from "../images/Supsolution_Logo.png";
 
@@ -10,11 +11,13 @@ import logo from "../images/Supsolution_Logo.png";
 
 const IndexPage = () => {
   return (
-    <div className="init-logo">
-      <Link to="/about/">
-        <img className="init-logo-img fade-in" src={logo} alt="Logo" />
-      </Link>
-    </div>
+    <Layout>
+      <div className="init-logo">
+        <Link to="/about/">
+          <img className="init-logo-img fade-in" src={logo} alt="Logo" />
+        </Link>
+      </div>
+    </Layout>
   );
 };
 
