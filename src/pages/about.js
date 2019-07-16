@@ -42,7 +42,7 @@ const About = () => (
             </span>{" "}
             and work in a collective of producers, designers, brand consultants,
             photographers, artists, and developers. We build content that is
-            catered to each client and deliver adjacent printed and digial
+            catered to each client and deliver adjacent printed and digital
             matter that{" "}
             <span className="speaks-to-brand">
               <img src={line4} className="speaks-brand-img" alt="line" />
