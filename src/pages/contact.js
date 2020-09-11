@@ -25,12 +25,14 @@ const Contact = () => (
             New York City
           </p>
           <p className="contact-col-phone">
-            79 Madison Avenue
+            31 Hudson Yards 11fl
             <br />
-            New York, NY 10016
+            New York, NY 10001
           </p>
+          <p className="contact-col-phone">646-206-7382</p>
         </div>
 
+        {/*
         <div className="contact-col" id="seoul-col">
           <p className="contact-col-title" id="seoul">
             <img className="contact-number-img" src={two} alt="two" />
@@ -42,12 +44,14 @@ const Contact = () => (
             Seoul, 06168
           </p>
         </div>
+        */}
       </div>
 
       <div className="contact-email">
-        <p className="contact-info">
+        {/*   <p className="contact-info">
           Contact - <img className="contact-info-img" src={info} alt="three" />
-        </p>
+        </p>* */}
+        <p className="contact-info">Contact: sunsong@supsolution.com</p>
       </div>
     </div>
   </Layout>

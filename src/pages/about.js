@@ -8,7 +8,7 @@ import box1 from "../images/Box1.png";
 import line2 from "../images/Line2.png";
 import line3 from "../images/Line3.png";
 import line4 from "../images/speaks-line.png";
-import diagramMobile from "../images/Diagram_Mobile-01.png";
+import diagramMobile from "../images/Diagram_Mobile.png";
 import diagramWeb from "../images/Diagram_Web-01.png";
 
 const About = () => (
